@@ -1,7 +1,7 @@
 // Recovery attempt log. Newest entries go at the bottom.
 // No personal data here: IDs are masked, names/emails/phone numbers are left out.
 //
-// outcome: "rejected" | "no-help" | "no-reply" | "pending" | "success"
+// outcome: "rejected" | "blocked" | "no-help" | "no-reply" | "pending" | "success"
 window.ATTEMPTS = [
   {
     date: "2026-05-31",
@@ -107,5 +107,15 @@ window.ATTEMPTS = [
     response: "Support explained that the questionnaire is built from the account's private data (commonly used devices, login regions, past top-up orders), then repeated the rejection template and added that filing a claim does not guarantee success.",
     reason: "Failed questionnaire answers or a less-used device. The request for manual review was not acknowledged.",
     outcome: "rejected"
+  },
+  {
+    date: "2026-11-01",
+    channel: "In-game Account Recovery tool",
+    title: "Recovery application #5 blocked before submission",
+    ref: "",
+    what: "Fifth claim prepared from the owner's usual iPad on home Wi-Fi, without a VPN: answered the opening questions (cannot log in, account was taken, 6–12 months ago) and filled in the account-history form.",
+    response: "Before the claim could be sent, the tool showed a message that unusual activity had been detected in the current environment and that the claim must be filed from the primary device. The only button was Exit.",
+    reason: "Unusual activity in the current environment. This was the same iPad the account was played on until March 2026.",
+    outcome: "blocked"
   }
 ];

@@ -79,6 +79,7 @@
   dd { margin: 2px 0 0; }
 
   .rejected { --dot: var(--rejected); }
+  .blocked  { --dot: var(--rejected); }
   .no-help  { --dot: var(--nohelp); }
   .no-reply { --dot: var(--noreply); }
   .pending  { --dot: var(--pending); }
@@ -115,7 +116,7 @@
 
 <script src="attempts.js"></script>
 <script>
-  const LABELS = { "rejected": "Rejected", "no-help": "No help", "no-reply": "No reply", "pending": "Pending", "success": "Recovered" };
+  const LABELS = { "rejected": "Rejected", "blocked": "Blocked", "no-help": "No help", "no-reply": "No reply", "pending": "Pending", "success": "Recovered" };
   const fmt = d => new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
   const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
