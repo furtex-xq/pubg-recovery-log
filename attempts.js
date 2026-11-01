@@ -113,8 +113,8 @@ window.ATTEMPTS = [
     channel: "In-game Account Recovery tool",
     title: "Recovery application #5 blocked before submission",
     ref: "",
-    what: "Fifth claim prepared from the owner's usual iPad on home Wi-Fi, without a VPN: answered the opening questions (cannot log in, account was taken, 6–12 months ago) and filled in the account-history form.",
-    response: "Before the claim could be sent, the tool showed a message that unusual activity had been detected in the current environment and that the claim must be filed from the primary device. The only button was Exit.",
+    what: "Fifth claim prepared from the owner's usual iPad, without a VPN but away from home on another Wi-Fi network: answered the opening questions (cannot log in, account was taken, 6–12 months ago) and filled in the account-history form.",
+    response: "Before the claim could be sent, the tool showed a message that unusual activity had been detected in the current environment and that the claim must be filed from the primary device. The only button was Exit. A second try after turning off iCloud Private Relay and IP-tracking protection got the same message.",
     reason: "Unusual activity in the current environment. This was the same iPad the account was played on until March 2026.",
     outcome: "blocked"
   }
