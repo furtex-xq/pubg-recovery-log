@@ -124,7 +124,7 @@ window.ATTEMPTS = [
     title: "Recovery application #5 submitted",
     ref: "Application …9187",
     what: "Filed from the owner's iPad on home Wi-Fi. The tool again flagged unusual activity, then allowed the claim after verification by code. The owner passed a short quiz on official addresses and websites, chose full recovery (unbind every current login method), and completed the 21-question form: last login, devices, regions, previously linked email and phone, nickname history, ranks, teammates, eight top-ups with dates and amounts, registration month and device. Two long free-text answers covered the timeline of the loss and a list of all Google Play order numbers.",
-    response: "Confirmation email received the same evening; status in the claim history is Processing.",
+    response: "Confirmation email received the same evening; status in the claim history is Processing. A follow-up email to customer service the same evening corrected two small mistakes in the form (one purchase date and the registration month) and asked for the claim to be checked by a specialist.",
     reason: "Pending review (up to 7 business days).",
     outcome: "pending"
   }
