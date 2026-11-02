@@ -117,5 +117,15 @@ window.ATTEMPTS = [
     response: "Before the claim could be sent, the tool showed a message that unusual activity had been detected in the current environment and that the claim must be filed from the primary device. The only button was Exit. A second try after turning off iCloud Private Relay and IP-tracking protection got the same message.",
     reason: "Unusual activity in the current environment. This was the same iPad the account was played on until March 2026.",
     outcome: "blocked"
+  },
+  {
+    date: "2026-11-02",
+    channel: "In-game Account Recovery tool",
+    title: "Recovery application #5 submitted",
+    ref: "Application …9187",
+    what: "Filed from the owner's iPad on home Wi-Fi. The tool again flagged unusual activity, then allowed the claim after verification by code. The owner passed a short quiz on official addresses and websites, chose full recovery (unbind every current login method), and completed the 21-question form: last login, devices, regions, previously linked email and phone, nickname history, ranks, teammates, eight top-ups with dates and amounts, registration month and device. Two long free-text answers covered the timeline of the loss and a list of all Google Play order numbers.",
+    response: "Confirmation email received the same evening; status in the claim history is Processing.",
+    reason: "Pending review (up to 7 business days).",
+    outcome: "pending"
   }
 ];
