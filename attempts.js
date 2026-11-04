@@ -127,5 +127,15 @@ window.ATTEMPTS = [
     response: "Confirmation email received the same evening. A follow-up email to customer service the same evening corrected two small mistakes in the form (one purchase date and the registration month) and asked for the claim to be checked by a specialist.",
     reason: "Result email on 4 November: not approved, no reason given. The same morning customer service answered the follow-up email with the usual template: the claim failed because answers were judged incorrect or a less-used device was used, and a new claim can be filed 7 days after a rejection. The owner replied asking which answers were wrong.",
     outcome: "rejected"
+  },
+  {
+    date: "2026-11-04",
+    channel: "Email thread with customer service",
+    title: "Detailed description after repeated rejections",
+    ref: "Applications …6493, …8212, …1596, …9476, …9187",
+    what: "Following the advice in the rejection email to contact customer service with a detailed description when claims keep failing, the owner sent a structured message: all five claim numbers, what happened, why the automatic check likely fails (most required questions ask about the last six months, when the account was used by the other person on his device), the evidence available, and a request for a manual review by the account security team based on the history before 7 March 2026. Screenshots to follow in a separate message.",
+    response: "Awaiting reply.",
+    reason: "Pending.",
+    outcome: "pending"
   }
 ];
