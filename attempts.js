@@ -133,7 +133,7 @@ window.ATTEMPTS = [
     channel: "Email thread with customer service",
     title: "Detailed description after repeated rejections",
     ref: "Applications …6493, …8212, …1596, …9476, …9187",
-    what: "Following the advice in the rejection email to contact customer service with a detailed description when claims keep failing, the owner sent a structured message: all five claim numbers, what happened, why the automatic check likely fails (most required questions ask about the last six months, when the account was used by the other person on his device), the evidence available, and a request for a manual review by the account security team based on the history before 7 March 2026. Screenshots to follow in a separate message.",
+    what: "Following the advice in the rejection email to contact customer service with a detailed description when claims keep failing, the owner sent a structured message: all five claim numbers, what happened, why the automatic check likely fails (most required questions ask about the last six months, when the account was used by the other person on his device), the evidence available, and a request for a manual review by the account security team based on the history before 7 March 2026. A second message the same afternoon carried all 20 evidence screenshots, each listed with what it shows.",
     response: "Awaiting reply.",
     reason: "Pending.",
     outcome: "pending"
