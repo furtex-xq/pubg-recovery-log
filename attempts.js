@@ -134,8 +134,8 @@ window.ATTEMPTS = [
     title: "Detailed description after repeated rejections",
     ref: "Applications …6493, …8212, …1596, …9476, …9187",
     what: "Following the advice in the rejection email to contact customer service with a detailed description when claims keep failing, the owner sent a structured message: all five claim numbers, what happened, why the automatic check likely fails (most required questions ask about the last six months, when the account was used by the other person on his device), the evidence available, and a request for a manual review by the account security team based on the history before 7 March 2026. A second message the same afternoon carried all 20 evidence screenshots, each listed with what it shows.",
-    response: "Awaiting reply.",
-    reason: "Pending.",
-    outcome: "pending"
+    response: "Two days later customer service replied with a general explanation: the verification questions (frequently used devices, login regions, past top-up orders) come from the account's private data, so support cannot see or share the expected answers; a new claim can be filed 7 days after a rejection. The request for a manual review and the screenshots were not addressed.",
+    reason: "Support says it cannot check claims manually or reveal which answers were wrong, citing privacy rules.",
+    outcome: "no-help"
   }
 ];
