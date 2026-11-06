@@ -137,5 +137,15 @@ window.ATTEMPTS = [
     response: "Two days later customer service replied with a general explanation: the verification questions (frequently used devices, login regions, past top-up orders) come from the account's private data, so support cannot see or share the expected answers; a new claim can be filed 7 days after a rejection. The request for a manual review and the screenshots were not addressed.",
     reason: "Support says it cannot check claims manually or reveal which answers were wrong, citing privacy rules.",
     outcome: "no-help"
+  },
+  {
+    date: "2026-11-06",
+    channel: "Email to the publisher's data protection officer",
+    title: "GDPR data access request",
+    ref: "",
+    what: "Because customer service says the data behind the automatic check is private, the owner (an EU resident) sent a formal request under the GDPR to the publisher's data protection officer: a copy of the account's login history, the history of changes to linked login methods, purchase history and the records of the five claims (Art. 15), and human review of the automated recovery decision (Art. 22). Ownership evidence was listed; no passwords were sent.",
+    response: "Awaiting reply. The legal deadline is one month (6 December 2026), extendable with a stated reason.",
+    reason: "Pending.",
+    outcome: "pending"
   }
 ];
